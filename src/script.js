@@ -30,11 +30,12 @@ playlist.forEach( function( i ) {
 }, );
 
 function calculateTotalValue( length ) {
-  let minutes = Math.floor( length / 60 ),
-    seconds_int = length - minutes * 60,
-    seconds_str = seconds_int.toString( ),
-    seconds = seconds_str.substr( 0, 2 ),
-    time = minutes + ':' + seconds
+   minutes = Math.floor( length / 60 ),
+   seconds_int = length - minutes * 60,
+   seconds_str = seconds_int.toString(),
+   seconds = parseInt(seconds_str),   
+   seconds = ("0" + seconds).slice(-2),
+   time = minutes + ':' + seconds
   return time;
 }
 
