@@ -9,7 +9,14 @@ let playlist = [ {
   'audio': "https://firebasestorage.googleapis.com/v0/b/ucrania-proj.appspot.com/o/Mp3%2FSalsas%2FGIGANTES%20DE%20LA%20SALSA%20-%20El%20hombre%20que%20yo%20amo.mp3?alt=media&token=13a086f5-35b0-4ecd-ac11-ad80de6b1b4f",
 },{ 
   'title':'KAROL G ft SHAKIRA - TQG (Version Salsa)',
-  'audio': 'https://firebasestorage.googleapis.com/v0/b/ucrania-proj.appspot.com/o/Mp3%2FSalsas%2FKAROL%20G%20%26%20SHAKIRA%20-%20TQG%20(Version%20Salsa%20Jane%20Riascos).mp3?alt=media&token=bc45b841-5370-45e7-ab02-0703c91c6621', }
+  'audio': 'https://firebasestorage.googleapis.com/v0/b/ucrania-proj.appspot.com/o/Mp3%2FSalsas%2FKAROL%20G%20%26%20SHAKIRA%20-%20TQG%20(Version%20Salsa%20Jane%20Riascos).mp3?alt=media&token=bc45b841-5370-45e7-ab02-0703c91c6621', 
+},{ 
+    'title':'LA SOLUCION - Abrazame muy fuerte',
+    'audio': 'https://firebasestorage.googleapis.com/v0/b/ucrania-proj.appspot.com/o/Mp3%2FSalsas%2FLA%20SOLUCION%20-%20Abrazame%20Muy%20Fuerte.mp3?alt=media&token=b511a479-eff8-4d45-ba5a-a3c1d8d2c3e7', 
+},{ 
+    'title':'SENSACION SALSERA - Con la misma moneda',
+    'audio': 'https://firebasestorage.googleapis.com/v0/b/ucrania-proj.appspot.com/o/Mp3%2FSalsas%2FSENSACION%20SALSERA%20-%20Con%20la%20misma%20moneda.mp3?alt=media&token=9ad88387-b454-4a27-964f-58a36a2f50f2', 
+}    
 ];
 
 i = 0;
